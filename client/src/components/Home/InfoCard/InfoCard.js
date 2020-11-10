@@ -2,15 +2,15 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './InfoCard.css';
 
-const InfoCard = ({infocard}) => {
+const InfoCard = ({info}) => {
     return (
         
             <div className='info-card col-md-4 '>
-                <div className={` info-container text-white d-flex align-items-center info-${infocard.background} `}>
-                     <div className='mr-3 '> <FontAwesomeIcon className='info-icon' icon={ infocard.icon } /></div>
+                <div className={` info-container text-white d-flex align-items-center info-${info.background} `}>
+                     <div className='mr-3 '> <FontAwesomeIcon className='info-icon' icon={ info.icon } /></div>
                     <div>
-                     <h6>{infocard.title}</h6>
-                     <small>{infocard.description}</small>
+                     <h6>{info.title}</h6>
+                     <small>{info.description}</small>
                 </div>
                 </div>
                 </div>

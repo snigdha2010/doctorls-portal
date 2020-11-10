@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from '../../Shared/NavBar/NavBar';
 import HeaderMain from '../HeaderMain/HeaderMain';
 import './Header.css';
-import BusinessInfo from '../BusinerrInfo/BusinessInfo';
+import BusinessInfo from '../BusinessInfo/BusinessInfo';
 const Header = () => {
     return (
         <div className='header-container'>
